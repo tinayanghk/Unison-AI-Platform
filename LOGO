@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>可颂AI | Croissant AI</title>
+    <style>
+        /* Logo樣式 */
+        .text-logo {
+            font-family: 'Arial', sans-serif;
+            display: inline-block;
+            text-align: center;
+            text-decoration: none;
+            color: #333;
+            transition: all 0.3s ease;
+        }
+        
+        .chinese-text {
+            font-size: 28px;
+            font-weight: bold;
+            color: #2c3e50;
+            margin-bottom: 5px;
+        }
+        
+        .english-text {
+            font-size: 18px;
+            color: #7f8c8d;
+            letter-spacing: 2px;
+            font-weight: 300;
+            text-transform: uppercase;
+        }
+        
+        /* 懸停效果 */
+        .text-logo:hover .chinese-text {
+            color: #3498db;
+        }
+        
+        .text-logo:hover .english-text {
+            color: #2980b9;
+        }
+        
+        /* 導航欄樣式 */
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 1rem 2rem;
+        }
+        
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        /* 響應式設計 */
+        @media (max-width: 768px) {
+            .chinese-text { font-size: 22px; }
+            .english-text { font-size: 14px; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="nav-container">
+            <!-- 文字Logo -->
+            <a href="/" class="text-logo">
+                <div class="chinese-text">可颂AI</div>
+                <div class="english-text">Croissant AI</div>
+            </a>
+            
+            <!-- 導航菜單 -->
+            <ul class="nav-menu">
+                <li><a href="#">產品</a></li>
+                <li><a href="#">服務</a></li>
+                <li><a href="#">關於我們</a></li>
+                <li><a href="#">聯絡</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <h1>歡迎使用可颂AI</h1>
+        <p>創新的人工智能解決方案</p>
+    </main>
+</body>
+</html>
